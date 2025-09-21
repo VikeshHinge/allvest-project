@@ -18,7 +18,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '23'
+         node-version: '23'
+        
       - name: Install dependencies
         run: |
          cd allvest-project
@@ -28,3 +29,4 @@ jobs:
         run: |
           cd allvest-project
           npm run build
+
