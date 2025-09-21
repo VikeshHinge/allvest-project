@@ -8,9 +8,9 @@ import Home from "./pages/home";
 function App() {
   return (
     <div className="bg-[#191d19] ">
-        <Navbar/>
-        <Home/>
-        <Footer/>
+      <Navbar />
+        <Home />
+      <Footer />
     </div>
   );
 }
