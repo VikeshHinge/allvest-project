@@ -22,11 +22,9 @@ jobs:
         
       - name: Install dependencies
         run: |
-         allvest-project
          npm install
 
       - name: Build project
         run: |
-          cd allvest-project
           npm run build
 
